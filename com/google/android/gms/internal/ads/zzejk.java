@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.ads;
+
+public final class zzejk implements zzher {
+    public zzejk(zzhfj zzhfj0) {
+    }
+
+    @Override  // com.google.android.gms.internal.ads.zzhfj, com.google.android.gms.internal.ads.zzhfi
+    public final Object zzb() {
+        return new zzejj(zzffh.zzc());
+    }
+}
+

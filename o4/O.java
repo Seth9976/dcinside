@@ -1,0 +1,28 @@
+package o4;
+
+public enum o {
+    yotta,
+    zetta,
+    exa,
+    peta,
+    tera,
+    giga,
+    mega,
+    kilo,
+    hecto,
+    deca,
+    one,
+    deci,
+    centi,
+    milli,
+    micro,
+    nano,
+    pico,
+    femto,
+    atto,
+    zepto,
+    yocto;
+
+    private static o[] a() [...] // Inlined contents
+}
+

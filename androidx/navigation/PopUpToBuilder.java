@@ -1,0 +1,24 @@
+package androidx.navigation;
+
+@NavOptionsDsl
+public final class PopUpToBuilder {
+    private boolean a;
+    private boolean b;
+
+    public final boolean a() {
+        return this.a;
+    }
+
+    public final boolean b() {
+        return this.b;
+    }
+
+    public final void c(boolean z) {
+        this.a = z;
+    }
+
+    public final void d(boolean z) {
+        this.b = z;
+    }
+}
+

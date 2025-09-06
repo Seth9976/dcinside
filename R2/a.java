@@ -1,0 +1,10 @@
+package r2;
+
+public final class a {
+    public static final boolean a = false;
+    public static final String b = "com.google.firebase.perf.ktx";
+    public static final String c = "release";
+    public static final String d = "unspecified";
+
+}
+

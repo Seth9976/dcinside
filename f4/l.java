@@ -1,0 +1,24 @@
+package f4;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+import x4.B;
+import x4.F;
+import x4.G;
+import x4.I;
+import x4.e;
+import x4.s;
+
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE_USE, ElementType.TYPE_PARAMETER})
+@B({s.h, s.j})
+@F({d.class, c.class})
+@G({I.j, I.m})
+@e({I.h})
+public @interface l {
+}
+

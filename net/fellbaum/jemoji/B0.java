@@ -1,0 +1,93 @@
+package net.fellbaum.jemoji;
+
+import java.util.Collections;
+import java.util.List;
+
+interface b0 {
+    public static final f At;
+    public static final f Bt;
+    public static final f Ct;
+    public static final f Dt;
+    public static final f Et;
+    public static final f Ft;
+    public static final f Gt;
+    public static final f Ht;
+    public static final f It;
+    public static final f Ws;
+    public static final f Xs;
+    public static final f Ys;
+    public static final f Zs;
+    public static final f at;
+    public static final f bt;
+    public static final f ct;
+    public static final f dt;
+    public static final f et;
+    public static final f ft;
+    public static final f gt;
+    public static final f ht;
+    public static final f jt;
+    public static final f kt;
+    public static final f lt;
+    public static final f mt;
+    public static final f nt;
+    public static final f ot;
+    public static final f pt;
+    public static final f qt;
+    public static final f rt;
+    public static final f st;
+    public static final f tt;
+    public static final f ut;
+    public static final f vt;
+    public static final f wt;
+    public static final f xt;
+    public static final f yt;
+    public static final f zt;
+
+    static {
+        b0.Ws = new f("\uD83D\uDD34", "\uD83D\uDD34", Collections.singletonList(":red_circle:"), Collections.singletonList(":red_circle:"), Collections.singletonList(":red_circle:"), false, false, 0.6, M1.a("fully-qualified"), "red circle", d0.j, q1.M8);
+        List list0 = Collections.singletonList(":orange_circle:");
+        List list1 = Collections.singletonList(":large_orange_circle:");
+        List list2 = Collections.singletonList(":orange_circle:");
+        M1 m10 = M1.a("fully-qualified");
+        d0 d00 = d0.j;
+        q1 q10 = q1.M8;
+        b0.Xs = new f("\uD83D\uDFE0", "\uD83D\uDFE0", list0, list1, list2, false, false, 12.0, m10, "orange circle", d00, q10);
+        b0.Ys = new f("\uD83D\uDFE1", "\uD83D\uDFE1", Collections.singletonList(":yellow_circle:"), Collections.singletonList(":large_yellow_circle:"), Collections.singletonList(":yellow_circle:"), false, false, 12.0, M1.a("fully-qualified"), "yellow circle", d00, q10);
+        b0.Zs = new f("\uD83D\uDFE2", "\uD83D\uDFE2", Collections.singletonList(":green_circle:"), Collections.singletonList(":large_green_circle:"), Collections.singletonList(":green_circle:"), false, false, 12.0, M1.a("fully-qualified"), "green circle", d00, q10);
+        b0.at = new f("\uD83D\uDD35", "\uD83D\uDD35", Collections.singletonList(":blue_circle:"), Collections.singletonList(":large_blue_circle:"), Collections.singletonList(":large_blue_circle:"), false, false, 0.6, M1.a("fully-qualified"), "blue circle", d00, q10);
+        b0.bt = new f("\uD83D\uDFE3", "\uD83D\uDFE3", Collections.singletonList(":purple_circle:"), Collections.singletonList(":large_purple_circle:"), Collections.singletonList(":purple_circle:"), false, false, 12.0, M1.a("fully-qualified"), "purple circle", d00, q10);
+        b0.ct = new f("\uD83D\uDFE4", "\uD83D\uDFE4", Collections.singletonList(":brown_circle:"), Collections.singletonList(":large_brown_circle:"), Collections.singletonList(":brown_circle:"), false, false, 12.0, M1.a("fully-qualified"), "brown circle", d00, q10);
+        b0.dt = new f("⚫", "⚫", Collections.singletonList(":black_circle:"), Collections.singletonList(":black_circle:"), Collections.singletonList(":black_circle:"), false, false, 0.6, M1.a("fully-qualified"), "black circle", d00, q10);
+        b0.et = new f("⚪", "⚪", Collections.singletonList(":white_circle:"), Collections.singletonList(":white_circle:"), Collections.singletonList(":white_circle:"), false, false, 0.6, M1.a("fully-qualified"), "white circle", d00, q10);
+        b0.ft = new f("\uD83D\uDFE5", "\uD83D\uDFE5", Collections.singletonList(":red_square:"), Collections.singletonList(":large_red_square:"), Collections.singletonList(":red_square:"), false, false, 12.0, M1.a("fully-qualified"), "red square", d00, q10);
+        b0.gt = new f("\uD83D\uDFE7", "\uD83D\uDFE7", Collections.singletonList(":orange_square:"), Collections.singletonList(":large_orange_square:"), Collections.singletonList(":orange_square:"), false, false, 12.0, M1.a("fully-qualified"), "orange square", d00, q10);
+        b0.ht = new f("\uD83D\uDFE8", "\uD83D\uDFE8", Collections.singletonList(":yellow_square:"), Collections.singletonList(":large_yellow_square:"), Collections.singletonList(":yellow_square:"), false, false, 12.0, M1.a("fully-qualified"), "yellow square", d00, q10);
+        b0.jt = new f("\uD83D\uDFE9", "\uD83D\uDFE9", Collections.singletonList(":green_square:"), Collections.singletonList(":large_green_square:"), Collections.singletonList(":green_square:"), false, false, 12.0, M1.a("fully-qualified"), "green square", d00, q10);
+        b0.kt = new f("\uD83D\uDFE6", "\uD83D\uDFE6", Collections.singletonList(":blue_square:"), Collections.singletonList(":large_blue_square:"), Collections.singletonList(":blue_square:"), false, false, 12.0, M1.a("fully-qualified"), "blue square", d00, q10);
+        b0.lt = new f("\uD83D\uDFEA", "\uD83D\uDFEA", Collections.singletonList(":purple_square:"), Collections.singletonList(":large_purple_square:"), Collections.singletonList(":purple_square:"), false, false, 12.0, M1.a("fully-qualified"), "purple square", d00, q10);
+        b0.mt = new f("\uD83D\uDFEB", "\uD83D\uDFEB", Collections.singletonList(":brown_square:"), Collections.singletonList(":large_brown_square:"), Collections.singletonList(":brown_square:"), false, false, 12.0, M1.a("fully-qualified"), "brown square", d00, q10);
+        b0.nt = new f("⬛", "⬛", Collections.singletonList(":black_large_square:"), Collections.singletonList(":black_large_square:"), Collections.singletonList(":black_large_square:"), false, false, 0.6, M1.a("fully-qualified"), "black large square", d00, q10);
+        b0.ot = new f("⬜", "⬜", Collections.singletonList(":white_large_square:"), Collections.singletonList(":white_large_square:"), Collections.singletonList(":white_large_square:"), false, false, 0.6, M1.a("fully-qualified"), "white large square", d00, q10);
+        b0.pt = new f("◼️", "◼️", Collections.singletonList(":black_medium_square:"), Collections.singletonList(":black_medium_square:"), Collections.singletonList(":black_medium_square:"), false, false, 0.6, M1.a("fully-qualified"), "black medium square", d00, q10);
+        b0.qt = new f("◼", "◼", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":black_medium_square:"), false, false, 0.6, M1.a("unqualified"), "black medium square", d00, q10);
+        b0.rt = new f("◻️", "◻️", Collections.singletonList(":white_medium_square:"), Collections.singletonList(":white_medium_square:"), Collections.singletonList(":white_medium_square:"), false, false, 0.6, M1.a("fully-qualified"), "white medium square", d00, q10);
+        b0.st = new f("◻", "◻", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":white_medium_square:"), false, false, 0.6, M1.a("unqualified"), "white medium square", d00, q10);
+        b0.tt = new f("◾", "◾", Collections.singletonList(":black_medium_small_square:"), Collections.singletonList(":black_medium_small_square:"), Collections.singletonList(":black_medium_small_square:"), false, false, 0.6, M1.a("fully-qualified"), "black medium-small square", d00, q10);
+        b0.ut = new f("◽", "◽", Collections.singletonList(":white_medium_small_square:"), Collections.singletonList(":white_medium_small_square:"), Collections.singletonList(":white_medium_small_square:"), false, false, 0.6, M1.a("fully-qualified"), "white medium-small square", d00, q10);
+        b0.vt = new f("▪️", "▪️", Collections.singletonList(":black_small_square:"), Collections.singletonList(":black_small_square:"), Collections.singletonList(":black_small_square:"), false, false, 0.6, M1.a("fully-qualified"), "black small square", d00, q10);
+        b0.wt = new f("▪", "▪", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":black_small_square:"), false, false, 0.6, M1.a("unqualified"), "black small square", d00, q10);
+        b0.xt = new f("▫️", "▫️", Collections.singletonList(":white_small_square:"), Collections.singletonList(":white_small_square:"), Collections.singletonList(":white_small_square:"), false, false, 0.6, M1.a("fully-qualified"), "white small square", d00, q10);
+        b0.yt = new f("▫", "▫", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":white_small_square:"), false, false, 0.6, M1.a("unqualified"), "white small square", d00, q10);
+        b0.zt = new f("\uD83D\uDD36", "\uD83D\uDD36", Collections.singletonList(":large_orange_diamond:"), Collections.singletonList(":large_orange_diamond:"), Collections.singletonList(":large_orange_diamond:"), false, false, 0.6, M1.a("fully-qualified"), "large orange diamond", d00, q10);
+        b0.At = new f("\uD83D\uDD37", "\uD83D\uDD37", Collections.singletonList(":large_blue_diamond:"), Collections.singletonList(":large_blue_diamond:"), Collections.singletonList(":large_blue_diamond:"), false, false, 0.6, M1.a("fully-qualified"), "large blue diamond", d00, q10);
+        b0.Bt = new f("\uD83D\uDD38", "\uD83D\uDD38", Collections.singletonList(":small_orange_diamond:"), Collections.singletonList(":small_orange_diamond:"), Collections.singletonList(":small_orange_diamond:"), false, false, 0.6, M1.a("fully-qualified"), "small orange diamond", d00, q10);
+        b0.Ct = new f("\uD83D\uDD39", "\uD83D\uDD39", Collections.singletonList(":small_blue_diamond:"), Collections.singletonList(":small_blue_diamond:"), Collections.singletonList(":small_blue_diamond:"), false, false, 0.6, M1.a("fully-qualified"), "small blue diamond", d00, q10);
+        b0.Dt = new f("\uD83D\uDD3A", "\uD83D\uDD3A", Collections.singletonList(":small_red_triangle:"), Collections.singletonList(":small_red_triangle:"), Collections.singletonList(":small_red_triangle:"), false, false, 0.6, M1.a("fully-qualified"), "red triangle pointed up", d00, q10);
+        b0.Et = new f("\uD83D\uDD3B", "\uD83D\uDD3B", Collections.singletonList(":small_red_triangle_down:"), Collections.singletonList(":small_red_triangle_down:"), Collections.singletonList(":small_red_triangle_down:"), false, false, 0.6, M1.a("fully-qualified"), "red triangle pointed down", d00, q10);
+        b0.Ft = new f("\uD83D\uDCA0", "\uD83D\uDCA0", Collections.singletonList(":diamond_shape_with_a_dot_inside:"), Collections.singletonList(":diamond_shape_with_a_dot_inside:"), Collections.singletonList(":diamond_shape_with_a_dot_inside:"), false, false, 0.6, M1.a("fully-qualified"), "diamond with a dot", d00, q10);
+        b0.Gt = new f("\uD83D\uDD18", "\uD83D\uDD18", Collections.singletonList(":radio_button:"), Collections.singletonList(":radio_button:"), Collections.singletonList(":radio_button:"), false, false, 0.6, M1.a("fully-qualified"), "radio button", d00, q10);
+        b0.Ht = new f("\uD83D\uDD33", "\uD83D\uDD33", Collections.singletonList(":white_square_button:"), Collections.singletonList(":white_square_button:"), Collections.singletonList(":white_square_button:"), false, false, 0.6, M1.a("fully-qualified"), "white square button", d00, q10);
+        b0.It = new f("\uD83D\uDD32", "\uD83D\uDD32", Collections.singletonList(":black_square_button:"), Collections.singletonList(":black_square_button:"), Collections.singletonList(":black_square_button:"), false, false, 0.6, M1.a("fully-qualified"), "black square button", d00, q10);
+    }
+}
+

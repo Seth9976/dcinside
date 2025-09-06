@@ -1,0 +1,30 @@
+package com.google.android.gms.common.moduleinstall.internal;
+
+import androidx.annotation.Nullable;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.common.moduleinstall.ModuleAvailabilityResponse;
+import com.google.android.gms.common.moduleinstall.ModuleInstallIntentResponse;
+import com.google.android.gms.common.moduleinstall.ModuleInstallResponse;
+
+public class zaa extends zad {
+    @Override  // com.google.android.gms.common.moduleinstall.internal.zae
+    public void zab(Status status0) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override  // com.google.android.gms.common.moduleinstall.internal.zae
+    public void zac(Status status0, @Nullable ModuleInstallIntentResponse moduleInstallIntentResponse0) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override  // com.google.android.gms.common.moduleinstall.internal.zae
+    public void zad(Status status0, @Nullable ModuleInstallResponse moduleInstallResponse0) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override  // com.google.android.gms.common.moduleinstall.internal.zae
+    public void zae(Status status0, @Nullable ModuleAvailabilityResponse moduleAvailabilityResponse0) {
+        throw new UnsupportedOperationException();
+    }
+}
+

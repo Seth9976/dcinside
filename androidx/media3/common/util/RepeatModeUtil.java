@@ -1,0 +1,48 @@
+package androidx.media3.common.util;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@UnstableApi
+public final class RepeatModeUtil {
+    @Documented
+    @Retention(RetentionPolicy.SOURCE)
+    @Target({ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.LOCAL_VARIABLE, ElementType.TYPE_USE})
+    public @interface RepeatToggleModes {
+    }
+
+    public static final int a = 0;
+    public static final int b = 1;
+    public static final int c = 2;
+
+    public static int a(int v, int v1) {
+        for(int v2 = 1; v2 <= 2; ++v2) {
+            int v3 = (v + v2) % 3;
+            if(RepeatModeUtil.b(v3, v1)) {
+                return v3;
+            }
+        }
+        return v;
+    }
+
+    public static boolean b(int v, int v1) {
+        switch(v) {
+            case 0: {
+                return true;
+            }
+            case 1: {
+                return (v1 & 1) != 0;
+            }
+            case 2: {
+                return (v1 & 2) != 0;
+            }
+            default: {
+                return false;
+            }
+        }
+    }
+}
+

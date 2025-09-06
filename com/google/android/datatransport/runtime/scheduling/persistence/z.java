@@ -1,0 +1,11 @@
+package com.google.android.datatransport.runtime.scheduling.persistence;
+
+import android.database.Cursor;
+
+public final class z implements b {
+    @Override  // com.google.android.datatransport.runtime.scheduling.persistence.N$b
+    public final Object apply(Object object0) {
+        return N.e3(((Cursor)object0));
+    }
+}
+

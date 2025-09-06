@@ -1,0 +1,93 @@
+package net.fellbaum.jemoji;
+
+import j..util.DesugarCollections;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+interface t1 {
+    public static final f Au0;
+    public static final f Bu0;
+    public static final f Cu0;
+    public static final f Du0;
+    public static final f Eu0;
+    public static final f Fu0;
+    public static final f Gu0;
+    public static final f Hu0;
+    public static final f Iu0;
+    public static final f Ju0;
+    public static final f Ku0;
+    public static final f Lu0;
+    public static final f Mu0;
+    public static final f Nu0;
+    public static final f Ou0;
+    public static final f Pu0;
+    public static final f Qu0;
+    public static final f Ru0;
+    public static final f Su0;
+    public static final f Tu0;
+    public static final f Uu0;
+    public static final f Vu0;
+    public static final f Wu0;
+    public static final f Xu0;
+    public static final f Yu0;
+    public static final f Zu0;
+    public static final f av0;
+    public static final f bv0;
+    public static final f cv0;
+    public static final f dv0;
+    public static final f ev0;
+    public static final f fv0;
+    public static final f gv0;
+    public static final f hv0;
+    public static final f iv0;
+    public static final f jv0;
+    public static final f kv0;
+
+    static {
+        t1.Au0 = new f("\uD83D\uDD28", "\uD83D\uDD28", Collections.singletonList(":hammer:"), Collections.singletonList(":hammer:"), Collections.singletonList(":hammer:"), false, false, 0.6, M1.a("fully-qualified"), "hammer", d0.g, q1.J9);
+        List list0 = Collections.singletonList(":axe:");
+        List list1 = Collections.singletonList(":axe:");
+        List list2 = Collections.singletonList(":axe:");
+        M1 m10 = M1.a("fully-qualified");
+        d0 d00 = d0.g;
+        q1 q10 = q1.J9;
+        t1.Bu0 = new f("\uD83E\uDE93", "\uD83E\uDE93", list0, list1, list2, false, false, 12.0, m10, "axe", d00, q10);
+        t1.Cu0 = new f("⛏️", "⛏️", Collections.singletonList(":pick:"), Collections.singletonList(":pick:"), Collections.singletonList(":pick:"), false, false, 0.7, M1.a("fully-qualified"), "pick", d00, q10);
+        t1.Du0 = new f("⛏", "⛏", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":pick:"), false, false, 0.7, M1.a("unqualified"), "pick", d00, q10);
+        t1.Eu0 = new f("⚒️", "⚒️", DesugarCollections.unmodifiableList(Arrays.asList(new String[]{":hammer_pick:", ":hammer_and_pick:"})), Collections.singletonList(":hammer_and_pick:"), Collections.singletonList(":hammer_and_pick:"), false, false, 1.0, M1.a("fully-qualified"), "hammer and pick", d00, q10);
+        t1.Fu0 = new f("⚒", "⚒", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":hammer_and_pick:"), false, false, 1.0, M1.a("unqualified"), "hammer and pick", d00, q10);
+        t1.Gu0 = new f("\uD83D\uDEE0️", "\uD83D\uDEE0️", DesugarCollections.unmodifiableList(Arrays.asList(new String[]{":tools:", ":hammer_and_wrench:"})), Collections.singletonList(":hammer_and_wrench:"), Collections.singletonList(":hammer_and_wrench:"), false, false, 0.7, M1.a("fully-qualified"), "hammer and wrench", d00, q10);
+        t1.Hu0 = new f("\uD83D\uDEE0", "\uD83D\uDEE0", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":hammer_and_wrench:"), false, false, 0.7, M1.a("unqualified"), "hammer and wrench", d00, q10);
+        t1.Iu0 = new f("\uD83D\uDDE1️", "\uD83D\uDDE1️", DesugarCollections.unmodifiableList(Arrays.asList(new String[]{":dagger:", ":dagger_knife:"})), Collections.singletonList(":dagger_knife:"), Collections.singletonList(":dagger:"), false, false, 0.7, M1.a("fully-qualified"), "dagger", d00, q10);
+        t1.Ju0 = new f("\uD83D\uDDE1", "\uD83D\uDDE1", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":dagger:"), false, false, 0.7, M1.a("unqualified"), "dagger", d00, q10);
+        t1.Ku0 = new f("⚔️", "⚔️", Collections.singletonList(":crossed_swords:"), Collections.singletonList(":crossed_swords:"), Collections.singletonList(":crossed_swords:"), false, false, 1.0, M1.a("fully-qualified"), "crossed swords", d00, q10);
+        t1.Lu0 = new f("⚔", "⚔", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":crossed_swords:"), false, false, 1.0, M1.a("unqualified"), "crossed swords", d00, q10);
+        t1.Mu0 = new f("\uD83D\uDCA3", "\uD83D\uDCA3", Collections.singletonList(":bomb:"), Collections.singletonList(":bomb:"), Collections.singletonList(":bomb:"), false, false, 0.6, M1.a("fully-qualified"), "bomb", d00, q10);
+        t1.Nu0 = new f("\uD83E\uDE83", "\uD83E\uDE83", Collections.singletonList(":boomerang:"), Collections.singletonList(":boomerang:"), Collections.singletonList(":boomerang:"), false, false, 13.0, M1.a("fully-qualified"), "boomerang", d00, q10);
+        t1.Ou0 = new f("\uD83C\uDFF9", "\uD83C\uDFF9", DesugarCollections.unmodifiableList(Arrays.asList(new String[]{":bow_and_arrow:", ":archery:"})), Collections.singletonList(":bow_and_arrow:"), Collections.singletonList(":bow_and_arrow:"), false, false, 1.0, M1.a("fully-qualified"), "bow and arrow", d00, q10);
+        t1.Pu0 = new f("\uD83D\uDEE1️", "\uD83D\uDEE1️", Collections.singletonList(":shield:"), Collections.singletonList(":shield:"), Collections.singletonList(":shield:"), false, false, 0.7, M1.a("fully-qualified"), "shield", d00, q10);
+        t1.Qu0 = new f("\uD83D\uDEE1", "\uD83D\uDEE1", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":shield:"), false, false, 0.7, M1.a("unqualified"), "shield", d00, q10);
+        t1.Ru0 = new f("\uD83E\uDE9A", "\uD83E\uDE9A", Collections.singletonList(":carpentry_saw:"), Collections.singletonList(":carpentry_saw:"), Collections.singletonList(":carpentry_saw:"), false, false, 13.0, M1.a("fully-qualified"), "carpentry saw", d00, q10);
+        t1.Su0 = new f("\uD83D\uDD27", "\uD83D\uDD27", Collections.singletonList(":wrench:"), Collections.singletonList(":wrench:"), Collections.singletonList(":wrench:"), false, false, 0.6, M1.a("fully-qualified"), "wrench", d00, q10);
+        t1.Tu0 = new f("\uD83E\uDE9B", "\uD83E\uDE9B", Collections.singletonList(":screwdriver:"), Collections.singletonList(":screwdriver:"), Collections.singletonList(":screwdriver:"), false, false, 13.0, M1.a("fully-qualified"), "screwdriver", d00, q10);
+        t1.Uu0 = new f("\uD83D\uDD29", "\uD83D\uDD29", Collections.singletonList(":nut_and_bolt:"), Collections.singletonList(":nut_and_bolt:"), Collections.singletonList(":nut_and_bolt:"), false, false, 0.6, M1.a("fully-qualified"), "nut and bolt", d00, q10);
+        t1.Vu0 = new f("⚙️", "⚙️", Collections.singletonList(":gear:"), Collections.singletonList(":gear:"), Collections.singletonList(":gear:"), false, false, 1.0, M1.a("fully-qualified"), "gear", d00, q10);
+        t1.Wu0 = new f("⚙", "⚙", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":gear:"), false, false, 1.0, M1.a("unqualified"), "gear", d00, q10);
+        t1.Xu0 = new f("\uD83D\uDDDC️", "\uD83D\uDDDC️", Collections.singletonList(":compression:"), Collections.singletonList(":compression:"), Collections.singletonList(":clamp:"), false, false, 0.7, M1.a("fully-qualified"), "clamp", d00, q10);
+        t1.Yu0 = new f("\uD83D\uDDDC", "\uD83D\uDDDC", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":clamp:"), false, false, 0.7, M1.a("unqualified"), "clamp", d00, q10);
+        t1.Zu0 = new f("⚖️", "⚖️", Collections.singletonList(":scales:"), Collections.singletonList(":scales:"), Collections.singletonList(":balance_scale:"), false, false, 1.0, M1.a("fully-qualified"), "balance scale", d00, q10);
+        t1.av0 = new f("⚖", "⚖", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":balance_scale:"), false, false, 1.0, M1.a("unqualified"), "balance scale", d00, q10);
+        t1.bv0 = new f("\uD83E\uDDAF", "\uD83E\uDDAF", Collections.singletonList(":probing_cane:"), Collections.singletonList(":probing_cane:"), Collections.singletonList(":probing_cane:"), false, false, 12.0, M1.a("fully-qualified"), "white cane", d00, q10);
+        t1.cv0 = new f("\uD83D\uDD17", "\uD83D\uDD17", Collections.singletonList(":link:"), Collections.singletonList(":link:"), Collections.singletonList(":link:"), false, false, 0.6, M1.a("fully-qualified"), "link", d00, q10);
+        t1.dv0 = new f("⛓️‍\uD83D\uDCA5", "⛓️‍\uD83D\uDCA5", Collections.emptyList(), Collections.emptyList(), Collections.emptyList(), false, false, 15.1, M1.a("fully-qualified"), "broken chain", d00, q10);
+        t1.ev0 = new f("⛓‍\uD83D\uDCA5", "⛓‍\uD83D\uDCA5", Collections.emptyList(), Collections.emptyList(), Collections.emptyList(), false, false, 15.1, M1.a("unqualified"), "broken chain", d00, q10);
+        t1.fv0 = new f("⛓️", "⛓️", Collections.singletonList(":chains:"), Collections.singletonList(":chains:"), Collections.singletonList(":chains:"), false, false, 0.7, M1.a("fully-qualified"), "chains", d00, q10);
+        t1.gv0 = new f("⛓", "⛓", Collections.emptyList(), Collections.emptyList(), Collections.singletonList(":chains:"), false, false, 0.7, M1.a("unqualified"), "chains", d00, q10);
+        t1.hv0 = new f("\uD83E\uDE9D", "\uD83E\uDE9D", Collections.singletonList(":hook:"), Collections.singletonList(":hook:"), Collections.singletonList(":hook:"), false, false, 13.0, M1.a("fully-qualified"), "hook", d00, q10);
+        t1.iv0 = new f("\uD83E\uDDF0", "\uD83E\uDDF0", Collections.singletonList(":toolbox:"), Collections.singletonList(":toolbox:"), Collections.singletonList(":toolbox:"), false, false, 11.0, M1.a("fully-qualified"), "toolbox", d00, q10);
+        t1.jv0 = new f("\uD83E\uDDF2", "\uD83E\uDDF2", Collections.singletonList(":magnet:"), Collections.singletonList(":magnet:"), Collections.singletonList(":magnet:"), false, false, 11.0, M1.a("fully-qualified"), "magnet", d00, q10);
+        t1.kv0 = new f("\uD83E\uDE9C", "\uD83E\uDE9C", Collections.singletonList(":ladder:"), Collections.singletonList(":ladder:"), Collections.singletonList(":ladder:"), false, false, 13.0, M1.a("fully-qualified"), "ladder", d00, q10);
+    }
+}
+

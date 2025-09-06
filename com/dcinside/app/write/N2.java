@@ -1,0 +1,18 @@
+package com.dcinside.app.write;
+
+import kotlin.jvm.functions.Function1;
+import rx.functions.p;
+
+public final class n2 implements p {
+    public final Function1 a;
+
+    public n2(Function1 function10) {
+        this.a = function10;
+    }
+
+    @Override  // rx.functions.p
+    public final Object b(Object object0) {
+        return p2.r(this.a, object0);
+    }
+}
+

@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.ads;
+
+public final class zzchu implements zzher {
+    private final zzhfj zza;
+
+    public zzchu(zzhfj zzhfj0, zzhfj zzhfj1) {
+        this.zza = zzhfj0;
+    }
+
+    @Override  // com.google.android.gms.internal.ads.zzhfj, com.google.android.gms.internal.ads.zzhfi
+    public final Object zzb() {
+        return new zzfdi(((zzdni)this.zza.zzb()), zzffh.zzc());
+    }
+}
+

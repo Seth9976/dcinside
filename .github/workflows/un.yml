@@ -1,6 +1,7 @@
 name: Unzip Code
 on: [push]
-
+permissions:
+  contents: write
 jobs:
   unzip:
     runs-on: ubuntu-22.04
